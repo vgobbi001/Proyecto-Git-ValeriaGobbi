@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Reseteo basico*/
+
+/* -----------------------HEADER-------------------*/
+
+header {
+    background-color: rgb(186, 236, 125);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(78, 158, 25);
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    ;
+}
+
+/*---------botones---------*/
+
+.btn {
+    border: none;
+    background-color: rgb(78, 158, 25);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
+
+/*---------------PORTADA-----------*/
+
+.portada {
+    background-image: url(../images/leaves.webp);
+    height: 100vh;
+    background-position: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada h2 {
+    background-color: rgba(255, 248, 220, 0.567);
+    padding:20px;
+    border-radius: 10px;
+    color:rgb(133, 214, 10) 
+}
+
+/*-----------PRODUCTOS TITULO---------------*/
+
+.productos-destacados h3 {  
+    color: rgb(78, 158, 25);
+    text-align: left;
+    padding: 30px;
+
+}
+
+.tarjeta-producto{
+    border: 2px solid black;
+    width: 650px;
+    height: 850 px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+.conocenostext {
+    border: 2px solid black;
+    width: 650px;
+    height: 850 px;
+    padding: 20px;
+}
+
+.conocenos h3 {
+    color: rgb(78, 158, 25);
+    padding: 30px;
+
+}
+
+.recomendaciones-experiencias h3 {
+    color: rgb(78, 158, 25);
+    padding: 30px;
+
+}
+
+.recomendaciones {
+    border: 2px solid black;
+    width: 650px;
+    height: 850 px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+footer div h4{
+color: grey;
+padding: 5px;
+
+}
+
+footer div ul {
+    color: grey;
+    justify-content: space-between;
+    padding: 5px;
+    
+
+}
+
+/*---------nosotros----------*/
+
+
+.nuestro-proposito h3 {
+    color: rgb(78, 158, 25);
+
+
+}
+.nuestra-historia h3 {
+    color: rgb(78, 158, 25);
+
+
+}
+
+
+/*-------------PRODUCTOS tbd------------*/
+
+/*-----------EXPERIENCIA VERDE----------*/
+
+.restaurantes {
+
+    border: none;
+    width: 900px;
+    height: 900 px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+  }
+        
+.lugares { 
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    
+
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+
+ 
+}
+
+.opina {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+
+
+}
+
+
+/*-----------------CONTACTO-------------*/
+
+.contactanos {
+
+    border: none;
+    width: fit-content;
+    height: fit-content;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.formulario-contacto {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+  
+    align-items: left;
+    padding: 40px;
+
+
+
+}
+
+.formulario-contacto article form {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: left;
+    padding: 40px;
+
+
+}
+
+.btncontacto {
+    border: none;
+    background-color: rgb(78, 158, 25);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin: 40px;
+
+    
+}
+
+
