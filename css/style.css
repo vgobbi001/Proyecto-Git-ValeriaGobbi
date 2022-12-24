@@ -23,6 +23,8 @@ a {
 header {
     background-color: rgba(78, 158, 25, 0.777);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     color: rgb(233, 239, 233);
 }
@@ -99,22 +101,31 @@ header nav {
 }
 
 @media (min-width: 768px) {
-    .portada h2 { background-color: aqua;}
+    .portada h2 { background-color: rgb(78, 158, 25);
+        color: white
+        ;
 
-    body {
-        background-color: beige;
     }
+
+
 }
 
-/*-----------PRODUCTOS DESTACADOS GALERIA---------------*/
+/*-----------PRODUCTOS DESTACADOS GALERIA DEL HOME---------------*/
 
 .grilla-productos-destacados {
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+
+
+    justify-content: center;
     align-items: center;
     align-content: center;
     gap: 20px;
+
 
 }
 
@@ -127,39 +138,40 @@ main div h3 {
 .tarjeta-producto img   {
     width: 50;
     height: 45%;
-    object-fit: fill;
-    
+    object-fit: cover;
+
 }
 
 .tarjeta-producto-hellmanns img {
     width: 80px;
-    height: 130px;
-    object-fit: fill;
+    height: 120px;
+    object-fit: cover;
 }
 
 .tarjeta-producto-hellmanns {
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(41, 107, 19);
-    height: 300px;
-    width: 400px;
+    height: 100%;
+    width: 80%;
+    
    
     text-align: center;
     align-items: center;
     align-content: center;
     justify-content: center;
     gap: 10px;
+    transform: ;
 
+    
 }
-
-
 
 .tarjeta-producto{
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(41, 107, 19);
-    height: 300px;
-    width: 400px;
+    height: 100%;
+    width: 80%;
 
     text-align: center;
     justify-content: center;
@@ -219,39 +231,43 @@ main div h3 {
     }
 }
 
-/*----------------- conocenos-----------------*/
+/* -----------------CONOCENOS y NOSOTROS DEL HOME------------ */
 
-.conocenos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-
-
-}
 .conocenostext {
     display: flex;
-    border: 2px solid rgb(41, 107, 19);
-    height: 175px;
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*--------- PAGINA NOSOTROS----------*/
+
+.bg-verde {
+    background-color: rgb(10, 148, 10);
+}
+
+.footer-index {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-
+    text-align: center;
 }
 
 
 
-.conocenos h3 {
+.nuestro-proposito h3 {
     color: rgb(78, 158, 25);
-    padding: 10px;
+
+
+}
+.nuestra-historia h3 {
+    color: rgb(78, 158, 25);
+
 
 }
 
-
-/*------------------   recomendaciones experiencias -----------*/
+/*------------------  RECOMENDACIONES Y EXPERIENCIAS PAGINA -----------*/
 
 .recomendaciones-experiencias {
     display: flex;
@@ -282,32 +298,19 @@ main div h3 {
 
 
 footer div h4{
-color: grey;
+color: rgb(255, 255, 255);
 padding: 5px;
 
 }
 
 footer div ul {
-    color: grey;
+    color: rgb(255, 255, 255);
     justify-content: space-between;
     padding: 5px;
     
 
 }
 
-/*---------nosotros----------*/
-
-
-.nuestro-proposito h3 {
-    color: rgb(78, 158, 25);
-
-
-}
-.nuestra-historia h3 {
-    color: rgb(78, 158, 25);
-
-
-}
 
 
 /*-------------PRODUCTOS TBD------------*/
