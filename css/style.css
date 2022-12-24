@@ -16,22 +16,53 @@ a {
 
 /*Reseteo basico*/
 
+
+
 /* -----------------------HEADER-------------------*/
 
 header {
-    background-color: rgb(186, 236, 125);
+    background-color: rgba(78, 158, 25, 0.777);
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: rgb(78, 158, 25);
+    color: rgb(233, 239, 233);
 }
 
-header nav ul {
-    display: flex;
-    gap: 40px;
-    ;
+header h1 {
+    text-align: center;
+    padding: 10px;
 }
+header h3 {
+    text-align: center;
+    padding: 10px;
+    justify-content: center ;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    
+}
+
+@media (min-width: 1100px) {
+    header { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    header h3 {
+        display: none;
+    }
+
+    header nav ul { 
+        display: flex;
+        gap: 40px;
+    }
+
+} 
+
 
 /*---------botones---------*/
 
@@ -48,7 +79,7 @@ header nav ul {
 
 .portada {
     background-image: url(../images/leaves.webp);
-    height: 100vh;
+    height: 20vh;
     background-position: center;
   
     display: flex;
@@ -56,65 +87,183 @@ header nav ul {
     align-items: center;
 }
 
+
+
 .portada h2 {
     background-color: rgba(255, 248, 220, 0.567);
     padding:20px;
+    text-align: center;
     border-radius: 10px;
     color:rgb(133, 214, 10) 
+    
 }
 
-/*-----------PRODUCTOS TITULO---------------*/
+@media (min-width: 768px) {
+    .portada h2 { background-color: aqua;}
 
-.productos-destacados h3 {  
-    color: rgb(78, 158, 25);
-    text-align: left;
-    padding: 30px;
-
+    body {
+        background-color: beige;
+    }
 }
 
-.tarjeta-producto{
-    border: 2px solid black;
-    width: 650px;
-    height: 850 px;
-  
+/*-----------PRODUCTOS DESTACADOS GALERIA---------------*/
+
+.grilla-productos-destacados {
+
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: center;
+    gap: 20px;
+    object-fit: fill;
+}
+
+main div h3 {  
+    color: rgb(78, 158, 25);
+    text-align: center;
+}
+
+.tarjeta-producto img   {
+    width: 50;
+    height: 45%;
+    object-fit: fill;
+    
+}
+
+.tarjeta-producto-hellmanns img {
+    width: 80px;
+    height: 130px;
+    object-fit: fill;
+}
+
+.tarjeta-producto-hellmanns {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(41, 107, 19);
+    height: 220px;
+    
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    padding: 40px;
+    margin: 20px;
+
   }
 
-.conocenostext {
-    border: 2px solid black;
-    width: 650px;
-    height: 850 px;
-    padding: 20px;
+
+
+.tarjeta-producto{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(41, 107, 19);
+    height: 220px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
 }
+
+@media (min-width:1100px) {
+    .grilla-productos-destacados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 40vh);
+        align-items: center;
+    }
+
+
+    .tarjeta-producto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .tarjeta-producto img{
+        width: 250px;
+        height: 150px;
+
+    }
+
+    .tarjeta-producto-hellmanns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .tarjeta-producto-hellmanns img {
+        width: 120px;
+        height: 150px;
+
+    }
+}
+
+/*----------------- conocenos-----------------*/
+
+.conocenos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+
+}
+.conocenostext {
+    display: flex;
+    border: 2px solid rgb(41, 107, 19);
+    height: 175px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
 
 .conocenos h3 {
     color: rgb(78, 158, 25);
-    padding: 30px;
+    padding: 10px;
+
+}
+
+
+/*------------------   recomendaciones experiencias -----------*/
+
+.recomendaciones-experiencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
 
 }
 
 .recomendaciones-experiencias h3 {
     color: rgb(78, 158, 25);
-    padding: 30px;
+    padding: 10px;
 
 }
 
 .recomendaciones {
-    border: 2px solid black;
-    width: 650px;
-    height: 850 px;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px;
+    border: 2px solid rgb(41, 107, 19);
+    height: 175px;
+    text-align: center;
+    padding: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
-}
+
+
+} 
+
 
 
 footer div h4{
@@ -146,7 +295,7 @@ footer div ul {
 }
 
 
-/*-------------PRODUCTOS tbd------------*/
+/*-------------PRODUCTOS TBD------------*/
 
 /*-----------EXPERIENCIA VERDE----------*/
 
