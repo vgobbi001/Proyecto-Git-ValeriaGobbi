@@ -1,0 +1,166 @@
+.contactanos {
+    h2 {
+        text-align: center;
+        font-size: 27px;
+        color: $color-primario;
+        margin: 20px;
+        text-shadow: -2px 2px 5px  rgba(3, 99, 10, 0.573)
+    }
+
+    p {
+        color: black;
+        
+    }
+
+
+ /* AGREGAR ICONO DE CUADRO DE DIALOGO*/
+
+}
+
+.mapa {
+    text-align: center;
+    color: $color-primario;
+    font-style: italic;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 25px;
+
+    h2 {
+        text-align: center;
+        font-size: 27px;
+        color: $color-primario;
+        margin: 20px;
+        text-shadow: -2px 2px 5px  rgba(3, 99, 10, 0.573)
+    }
+}
+
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin: 20px;
+
+
+    @media (min-width: 1100px) {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position: absolute;
+  
+
+}
+
+.icono-contacto {
+    width: 30px;
+    height: 30px;
+    border: 2px solid $color-primario;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: $color-primario;
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+
+}
+
+.formulario-contacto {
+    display: grid;
+    grid-template-columns: 190px 190px;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        text-align: center;
+        color: $color-primario;
+        font-style: italic;
+        font-size: 18px;
+        padding: 10px;
+        line-height: 25px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+
+        form {      
+            @media (min-width: 1100px) {
+                display: grid;
+                grid-template-columns: 200px 200px;
+                grid-template-rows: 60px 60px;
+                align-items: flex-start;
+                justify-items: flex-start;
+                gap: 10px;
+            }
+            
+        }
+
+
+        
+    }
+
+    @media (min-width:1100px) {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 160px ;
+        
+    }
+}
+
+
+.icono-igwp {
+    width: 30px;
+    height: 30px;
+    border: 2px solid $color-primario;
+    border-radius: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: $color-primario;
+
+}
+.redes-sociales {
+
+    h2 {
+        text-align: center;
+        font-size: 27px;
+        color: $color-primario;
+        margin: 20px;
+        text-shadow: -2px 2px 5px  rgba(3, 99, 10, 0.573)
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 5px;
+        margin: 10px;
+ 
+    }
+
+
+}

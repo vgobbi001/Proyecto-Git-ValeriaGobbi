@@ -8,6 +8,7 @@
 ul,
 ol {
     list-style: none;
+    
 }
 
 a {
@@ -38,12 +39,15 @@ header h3 {
     padding: 10px;
     justify-content: center ;
 }
+
+/*TENGO QUE ARREGLAR EL NAV, NO SE POR QUE ME QUEDA DESCENTRADO*/
+
 header nav {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    flex-direction: column;
     text-align: center;
-    
+
+
 }
 
 @media (min-width: 1100px) {

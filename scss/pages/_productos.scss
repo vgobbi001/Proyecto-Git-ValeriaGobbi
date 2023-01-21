@@ -1,0 +1,143 @@
+
+.filtros {
+    background-color: $color-green;
+    padding: 10px;
+
+    
+    /* ----------- ME FALTA AGREGAR ALGO A LOS FILTROS PARA QUE QUEDE MAS LINDO ---------- */
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+        color: $color-primario;
+
+      
+    }
+
+    @media (min-width:1100px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+}
+
+
+.grilla-seccionproductos article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid rgb(41, 107, 19);
+    height: 300px;
+    width: 300px; 
+    justify-content: center;
+    margin-top: 10px;
+
+
+    h4 {
+        color: $color-primario;
+
+    }
+}
+.grilla-seccionproductos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    justify-items: center;
+
+
+    @media (min-width:1100px) {
+        display: grid;
+        grid-template-columns: 266px 266px 266px;
+        grid-template-rows: 300px 300px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 40px;
+
+    }
+}
+
+
+.tarjeta-seccionproductoleche {
+    img {
+        width: 90px;
+        height: 140px;
+    }
+
+}
+
+.tarjeta-seccionproducto {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+.tarjeta-seccionproductonotcheese img {
+    
+    height: 115px;
+    width: 125px;
+}
+
+.tarjeta-seccionproductojamon img {
+    height: 160px;
+    width: 170px;
+}
+
+.titulo-sugerencias {
+    background-color: $color-green;
+    padding: 10px;
+    color: $color-primario;
+    margin-top: 20px;
+    text-align: center;
+    
+
+
+}
+    
+
+
+
+.sugerencias-clientes {
+   
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 220px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        h4 {
+            color: $color-primario;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+    }
+
+    @media (min-width:1100px) {
+        display: grid;
+        grid-template-columns: 400px 400px ;
+        grid-template-rows: 160px 160px ;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+    }
+}
