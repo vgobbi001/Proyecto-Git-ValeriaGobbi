@@ -308,9 +308,9 @@ footer ul {
   text-align: center;
 }
 
-
+.contactanos {
   /* AGREGAR ICONO DE CUADRO DE DIALOGO*/
-
+}
 .contactanos h2 {
   text-align: center;
   font-size: 27px;
@@ -570,6 +570,35 @@ footer ul {
   justify-content: center;
   align-items: center;
   object-position: bottom;
+}
+
+.imgtoptres {
+  width: 160px;
+  height: 160px;
+}
+
+.seccionpalta {
+  background-image: url(/images/top3.jpg);
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  background-position: bottom;
+}
+
+.seccionlugares {
+  background-image: url(/images/top32.jpg);
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  background-position: bottom;
+}
+
+.seccionopina {
+  background-image: url(/images/top3.jpg);
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  background-position: bottom;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,9 +5,41 @@
     height: 20vh;
     background-position: center;
     background-position: bottom;
-    
+
     display: flex;
     justify-content: center;
     align-items:center;
     object-position: bottom;
+}
+
+.imgtoptres {
+    width: 160px;
+    height: 160px;
+}
+
+.seccionpalta {
+    background-image: url(/images/top3.jpg);
+    background-size: cover;
+
+    object-fit: fill;
+    background-position: center;
+    background-position: bottom;
+}
+
+.seccionlugares {
+    background-image: url(/images/top32.jpg);
+    background-size: cover;
+
+    object-fit: fill;
+    background-position: center;
+    background-position: bottom;
+}
+
+.seccionopina {
+    background-image: url(/images/top3.jpg);
+    background-size: cover;
+
+    object-fit: fill;
+    background-position: center;
+    background-position: bottom;
 }
