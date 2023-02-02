@@ -3,8 +3,9 @@
 
 /*------productos destacados---*/
 
-div h3 {
+.titulo-index {
     text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-size: 27px;
     color: $color-primario;
     margin: 20px;
@@ -17,6 +18,7 @@ div h3 {
     grid-template-rows: repeat(1, 1fr);
     gap: 30px;
     justify-items: center;
+    
 
     @media (min-width:1100px) {
         display: grid;
@@ -25,15 +27,16 @@ div h3 {
         align-items: center;
         justify-content: center;
         padding: 20px;
+        
 
     }
 
 }
 
-   
+
 .hellmanns {
     width: 100px;
-    height: 140px;
+    height: 120px;
     object-fit: contain;
 
 }  
@@ -46,13 +49,13 @@ div h3 {
 
 .hamburguesas {
     width: 200px;
-    height: 150px;
+    height: 95px;
     object-fit: contain;
     
 }
 .alfajor {
     width: 200px;
-    height: 150px;
+    height: 130px;
     object-fit: contain;
     
 }
@@ -70,25 +73,31 @@ div h3 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: $color-primario;
     
     
-
+    
 }
     
-    
-
 
 
 .conocenos {
-
+    h2 {
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        text-align: center;
+        font-size: 27px;
+        color: $color-primario;
+        margin: 20px;
+        text-shadow: -2px 2px 5px  rgba(3, 99, 10, 0.573);
+    }
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
-
-     
-
+ 
     p {
       font-style: italic;
       line-height: 25px;
@@ -107,26 +116,32 @@ div h3 {
 
 }
 
+
 .grilla-recomendaciones {
 
     display: grid;
-    grid-template-columns: 180px 180px;
-    grid-template-rows: 160px 200px;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 260px 320px;
     justify-content: center;
     text-align: center;
-    padding: 20px;
-
+    padding: 30px;
+    gap: 10px;
+    margin-left: 10px;
+    
     article {
         display: flex;
         flex-direction: column;
         gap: 5px;
+        box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.716);
 
-        h4 {
+
+        h3 {
             color: $color-primario;
         }
 
         p {
             font-style: italic;
+            padding: 5px;
         }
 
     }
@@ -134,37 +149,11 @@ div h3 {
     @media (min-width:1100px) {
         display: grid;
         grid-template-columns: 400px 400px ;
-        grid-template-rows: 160px 160px ;
-        align-items: center;
+        grid-template-rows: 180px 180px ;
+        
         justify-content: center;
-        padding: 30px;
+        padding: 40px;
 
         }
 }
 
-   
-footer {
-    padding: 10px;
-    color: rgb(110, 117, 18);
-    background-image: url(/images/leaves.webp);
-   
-
-
-   h4 {
-    font-style: italic;
-    text-align: center;
-    padding: 10px;
-   }
-
-   ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-
-   }
-
-
-
-}

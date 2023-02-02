@@ -17,7 +17,7 @@
     height: 160px;
 }
 
-.seccionpalta {
+.seccionexperienciaverde {
     background-image: url(/images/top3.jpg);
     background-size: cover;
 
@@ -26,6 +26,15 @@
     background-position: bottom;
 }
 
+.imgrestos {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.titulo-top3 {
+    font-size: 24px;
+}
 .seccionlugares {
     background-image: url(/images/top32.jpg);
     background-size: cover;
@@ -42,4 +51,14 @@
     object-fit: fill;
     background-position: center;
     background-position: bottom;
+}
+
+.titulo-experiencia {
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 27px;
+    color: $color-primario;
+    margin: 20px;
+    text-shadow: -2px 2px 5px  rgba(250, 255, 250, 0.573);
+    font-weight: bold;
 }
