@@ -4,8 +4,10 @@
 @import "./base/base";
 
 
-@import "./components/navbar";
+@import "./components/componentescomunes";
 @import "./components/botones";
+@import "./components/animaciones";
+
 
 
 @import "./pages/index";
@@ -13,5 +15,4 @@
 @import "./pages/productos";
 @import "./pages/experienciaverde";
 @import "./pages/nosotros";
-@import "./components/animaciones";
 
