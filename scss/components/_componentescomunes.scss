@@ -30,7 +30,7 @@ header {
     }
 
     nav {
-        background-color: none;
+       
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -61,20 +61,15 @@ header {
 .portada {
     
     background-image: url(..//images/comidaindex\ \(1\).jpg);
-    background-size: cover;
     object-fit: fill;
     height: 20vh;
-    background-position: center;
-    background-position: bottom;
-
-    
+      
     display: flex;
     justify-content:center;
     align-items:flex-end;
         
 
     @media (min-width: 1100px) { 
-        background-size: cover;
         background-position: bottom center;
     }
 }
