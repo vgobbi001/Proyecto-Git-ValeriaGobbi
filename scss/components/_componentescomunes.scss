@@ -7,6 +7,7 @@ header {
     z-index:1;
    
     background-color: rgba(53, 123, 7, 0.856);
+    
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -63,6 +64,8 @@ header {
     background-image: url(..//images/comidaindex\ \(1\).jpg);
     object-fit: fill;
     height: 20vh;
+    background-size: cover;
+    background-position: bottom center;
       
     display: flex;
     justify-content:center;

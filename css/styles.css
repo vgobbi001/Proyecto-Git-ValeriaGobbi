@@ -69,6 +69,8 @@ header nav {
   background-image: url(..//images/comidaindex\ \(1\).jpg);
   object-fit: fill;
   height: 20vh;
+  background-size: cover;
+  background-position: bottom center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
